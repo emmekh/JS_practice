@@ -12,3 +12,8 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+const str = 'stroka'
+console.log(str instanceof String)
+console.log(typeof str)
+const strUp = str.toUpperCase()
+console.log(strUp)

@@ -10,3 +10,7 @@
  *
  * 5. Результат вызовов функции выведите в консоль
  */
+const myFunc = name => `Hello, ${name}`;
+
+console.log(myFunc('Emil'));
+console.log(myFunc('abc'));

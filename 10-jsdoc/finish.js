@@ -12,3 +12,20 @@
  *
  * 4. Вызовите функцию
  */
+
+/** 
+ * возврщенаем разницу двух чисел
+ * @param {number} x
+ * @param {number} y
+ * @returns {number} разница чисел
+*/
+
+const dif = (x, y) => x - y //неявнео возвращение
+
+/** функция с явным возвращением
+ * function dif(x, y) {
+ *      return x - y
+ * }
+ */
+
+console.log(dif(13, 7))

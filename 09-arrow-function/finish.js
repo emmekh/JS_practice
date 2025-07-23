@@ -10,3 +10,9 @@
  *
  * 5. Перепишите функцию так, чтобы результат возвращался неявно
  */
+
+const arrow = () => {
+    return 'Hello World!'
+}
+
+console.log(arrow());

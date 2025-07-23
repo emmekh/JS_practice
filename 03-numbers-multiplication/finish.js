@@ -7,3 +7,7 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+const a = 7;
+const b = 13;
+const mult = a * b;
+console.log(mult);
