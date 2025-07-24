@@ -23,6 +23,6 @@ newVariable = 30 + 5
 
 console.log(newVariable)
 
-if (newVariable > 10) {
+if (newVariable > 10) { // инструкция
   console.log(`${newVariable} больше 10`)
 }

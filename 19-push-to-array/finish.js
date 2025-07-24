@@ -6,3 +6,9 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+const arr = [17, 35, 95, 131];
+
+arr.push(13);
+arr.push(250);
+console.log(arr);
+console.log(arr.length);

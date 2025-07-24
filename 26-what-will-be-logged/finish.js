@@ -13,3 +13,4 @@ function fn() {
 }
 
 fn()(true)
+//
