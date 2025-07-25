@@ -13,3 +13,11 @@ const myObject = {
   key4: null,
   key10: NaN,
 }
+
+const objKeys = Object.keys(myObject);
+
+objKeys.forEach((key) => {
+  if (key === 'key1' || key === 'key3') {
+    console.log(myObject[key]);
+  }
+})
