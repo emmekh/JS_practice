@@ -15,3 +15,9 @@ const postsJSON = [
   '{"postId":6134,"commentsQuantity":2}',
   '{"postId":2351,"commentsQuantity":8}',
 ]
+// 1
+//postsJSON.forEach(el => console.log(JSON.parse(el)));
+const newPost = postsJSON.map((element) => JSON.parse(element));
+console.log(newPost);
+console.log(newPost[1].postId);
+console.log(newPost[newPost.length - 1].commentsQuantity);
