@@ -26,6 +26,14 @@ const testPosts = [
   },
 ]
 
+const processPosts = (arr) => {
+  return arr.map(el => {
+    const { postId, author: postAuthor, commentsQty: postCommentsQty = 0 } = el;
+
+    return { postId: postId + 1000, postAuthor, postCommentsQty }
+  })
+}
+
 const processedPosts = processPosts(testPosts)
 console.log(processedPosts)
 /*
