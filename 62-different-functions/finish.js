@@ -6,11 +6,12 @@
  *
  * 3. Также вызовите обе функции
  */
-
+//функцию можно вызвать до объявления, ошибки не будет
 function firstFunction(a, b) {
   return a + b
 }
 
+//функцию нельзя вызвать ДО объявления
 const secondFunction = function (a, b) {
   return a + b
 }
