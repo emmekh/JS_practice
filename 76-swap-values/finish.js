@@ -11,6 +11,9 @@ console.log(a, b)
 // first second
 
 // Напишите код здесь
+let temp = a;
+a = b;
+b = temp;
 
 console.log(a, b)
 // second first
